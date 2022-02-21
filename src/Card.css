@@ -1,0 +1,120 @@
+.f-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100vh;
+  background-color: #23252c;
+}
+
+.card {
+  flex-direction: column;
+  width: 300px;
+  background-color: #1a1b21;
+  border-radius: 10px;
+  min-height: 450px;
+  overflow: hidden;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.content {
+  padding: 2em;
+  flex-direction: column;
+}
+
+.pic-con {
+}
+
+.pic-con img {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header__name {
+  font-size: 2.5em;
+}
+
+.header__role {
+  font-size: 1.4em;
+  color: #f3bf99;
+}
+
+.header__website {
+  font-size: 1.2em;
+  padding-top: 0.5em;
+}
+
+.btn-con {
+  justify-content: space-between;
+  margin: 1.5em 0;
+  font-size: 1.4em;
+  width: 100%;
+}
+
+/* .btn-con > * {
+  flex: 1;
+} */
+
+.btn-con .btn {
+  width: 48%;
+  transition: all 0.2s;
+  font-size: 1em;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  scale: 1.05;
+}
+
+.btn > svg {
+  margin-right: 0.5em;
+}
+
+.btn__icon--email {
+  background-color: #fff;
+  color: #1a1b21;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.btn__text--linkedin {
+  background-color: #5093e2;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.info {
+  flex: 2;
+}
+
+.info--h {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+}
+
+.info--p {
+  font-size: 1.4em;
+  margin-bottom: 0.8em;
+  font-weight: 500;
+}
+
+.footer {
+  justify-content: space-around;
+  height: 10%;
+  width: 100%;
+  background-color: #161619;
+  padding: 2em 0;
+}
+
+.footer > * {
+  font-size: 2em;
+}
